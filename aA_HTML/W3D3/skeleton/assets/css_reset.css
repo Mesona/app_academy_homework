@@ -1,0 +1,32 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  font: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+figure {
+  width: 1000px;
+}
+
+section {
+  width: 1000px;
+}
+
+body {
+  background-color: blanchedalmond;
+  width: 990px;
+}
+
+body text {
+  line-height: 1.5;
+}
+
+img {
+  width: 100%
+}

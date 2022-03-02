@@ -1,0 +1,33 @@
+p {
+  color: antiquewhite;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredientis-list {
+  list-style: square inside
+}
+
+ol {
+  color: antiquewhite;
+}
+
+header img {
+  width: 100px;
+}
+
+ul li a {
+  color: inherit;
+  text-decoration: none;
+}

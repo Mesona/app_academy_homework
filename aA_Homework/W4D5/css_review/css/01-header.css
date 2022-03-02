@@ -1,0 +1,31 @@
+/* PHASE 1: Header */
+
+body {
+  /* Write your css here... */
+  font-family: "Robot" sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  background-color: lightgray;
+}
+
+.header {
+  background-color: red;
+  border-bottom: 1px solid gray;
+  color: white;
+
+}
+
+.header a {
+  display: block;
+  padding: 15px;
+  color: white;
+
+}
+
+.header-nav {
+  width: 92%;
+  margin: auto;
+  border-left: 2px gray solid;
+  border-right: 2px gray solid;
+
+}

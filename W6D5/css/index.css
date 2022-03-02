@@ -1,0 +1,51 @@
+div {
+  font-family: 'Francois One', sans-serif;
+  font-size: 32px;
+  width: 500px;
+  weight: bold;
+  margin: auto;
+}
+
+.clock-box {
+}
+
+.clock-title {
+  display: block;
+  margin-top: 20px;
+}
+
+.clock-border {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  background: orange;
+  color: white;
+}
+
+.clock-fields {
+  float: left;
+}
+
+.clock-values {
+  float: right;
+}
+
+.tabs-header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  flex-flow: wrap;
+}
+
+.tab {
+  background: blue;
+  color: white;
+}
+
+.tab-content {
+  display: block;
+  width: 500px;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.header-splash {
+  display: flex;
+  width: 100%;
+  background: lightgray;
+  padding: 20px;
+  border-left: 2px solid darkgray;
+  border-right: 2px solid darkgray;
+  border-top: 2px solid darkgray;;
+}
+
+h1 {
+  float: left;
+}
+
+h2 {
+  margin: auto;
+  background: lightgray;
+  border-left: 2px solid darkgray;
+  border-right: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  width: 100%;
+}
+
+body {
+  background: rgb(105, 163, 105);
+}
+
+.login-splash {
+  float: right;
+  width: 50%;
+}
+
+
+.img-splash {
+  width: 75%;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgray;
+  margin: auto;
+  border: 1px solid darkgray;
+}

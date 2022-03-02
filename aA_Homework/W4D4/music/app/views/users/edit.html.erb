@@ -1,0 +1,15 @@
+<h1>Editing User</h1>
+
+<form action="<%= user_url(@user) %>" method="POST">
+  <input type="hidden" name="authenticity_token" value="<% form_authenticity_token %>">
+  <input type="hidden" name="_method" value="PATCH">
+  <label for="email"></label>
+    <input type="text" name="user[email]" id="email" value="<%= @user.email %>">
+  <label for="password"></label>
+    <input type="password" name="user[password]" id="password" value="<%= @user.password %>"><br>
+
+  <input type="submit" value="Update User">
+</form>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

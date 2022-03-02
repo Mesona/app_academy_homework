@@ -1,0 +1,17 @@
+/* PHASE 8: Thumbs */
+
+.thumb ul li {
+  float: left;
+}
+
+.thumb ul li:nth-child(3n + 0) {
+  color: turquoise;
+  background-color: springgreen;
+  /* margin-right: 15px; */
+}
+
+
+.thumb ul li:nth-child(3n + 1) {
+  margin-left: 5px;
+  margin-right: 5px;
+}

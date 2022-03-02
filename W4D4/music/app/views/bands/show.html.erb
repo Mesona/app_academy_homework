@@ -1,0 +1,22 @@
+<% albums = Album.all %>
+
+<p id="notice"><%= notice %></p>
+
+
+<h3><%= @band.name %></h3>
+<br><br>
+
+<h4>Albums:</h4>
+<ul>
+  <% albums.each do |album| %>
+    <% if album.band_id == @band.id %>
+    <li>
+      <%= album.title %>
+    </li>
+    <% end %>
+  <% end %>
+</ul>
+
+
+<%= link_to 'Edit', edit_band_path(@band) %> |
+<%= link_to 'Back', bands_path %>

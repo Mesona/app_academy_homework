@@ -1,0 +1,52 @@
+/* PHASE 1: Header */
+body {
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+nav {
+  background-color: aquamarine;
+
+}
+
+h1 {
+  background-color: blue;
+
+}
+
+ul {
+  background-color: gray;
+
+}
+
+li {
+  background-color: orange;
+
+}
+
+a {
+  background-color: blueviolet;
+
+}
+
+.header {
+  background: red;
+}
+
+.header-nav {
+  background-color: blanchedalmond;
+  width: 300px;
+
+}
+
+.header-logo {
+  background-color: brown;
+
+}
+
+.header-list {
+  background-color: green;
+
+}
+

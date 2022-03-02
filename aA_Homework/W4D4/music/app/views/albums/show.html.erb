@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<h3><%= @album.title %></h3>
+
+Year: <%= @album.year %><br>
+Band: <%= @album.band_id %><br>
+Version: <%= @album.live_version == "FALSE" ? "Studio" : "Live" %><br><br>
+
+<%= link_to 'Edit', edit_album_url(@album) %> |
+<%= link_to 'Back', albums_url%>
+<%= link_to 'Destroy', @album, method: :delete, data: { confirm: 'Are you sure?' } %>
